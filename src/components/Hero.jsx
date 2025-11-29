@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Hero = () => {
+export const Hero = () => {
+
   return (
-    <div>
-      
-    </div>
+    <header className='hero'>
+      <div className='container'>
+        <h2>{title}</h2>
+        <p>{subtitle}</p>
+      </div>
+    </header>
   )
 }
-
-export default Hero
