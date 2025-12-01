@@ -1,11 +1,10 @@
 import React from 'react'
 
-const Silumator = () => {
+export const Simulator = () => {
   return (
     <div>
-      
+      Simulator
     </div>
   )
 }
 
-export default Silumator

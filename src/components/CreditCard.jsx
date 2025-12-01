@@ -34,7 +34,7 @@ export const CreditCard = ({ credit }) => {
         <div className='detail-item'>
           <span className='label'>Monto:</span>
           <span className='value'> 
-            {formatCurrency(minAmount) - formatCurrency(maxAmount)}
+            {/* {formatCurrency(minAmount) - formatCurrency(maxAmount)} */}
           </span>
         </div>
 

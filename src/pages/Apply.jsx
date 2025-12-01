@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Apply = () => {
+export const Apply = () => {
   return (
     <div>
-      
+      Apply 
     </div>
   )
 }
-
-export default Apply
