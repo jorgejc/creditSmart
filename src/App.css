@@ -11,12 +11,22 @@ body {
   background-color: #f5f7fa;
   color: #333;
   line-height: 1.6;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 /* NAVEGACIÓN */
